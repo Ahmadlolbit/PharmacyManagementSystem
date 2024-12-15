@@ -14,9 +14,9 @@
         
         <StackPanel Background="#0066ff" Grid.Column="0">
             <TextBlock Text="Adminstrator" Foreground="White" FontSize="20" FontWeight="Bold" Margin="10" />
-            <Button Content="Dashboard" Background="White" Foreground="Black"  BorderThickness="0" Margin="0, 10" Height="40" />
-            <Button Content="Add User" Background="Transparent" Foreground="White" BorderThickness="0" Margin="0,10" Height="40" />
-            <Button Content="Dashboard" Background="Transparent" Foreground="White" BorderThickness="0" Margin="0,10" Height="40" />
+            <Button Name="SideBarDashboardItem" Click="SideBarDashboardItem_OnClick" Content="Dashboard" Background="White" Foreground="Black"  BorderThickness="0" Margin="0, 10" Height="40" />
+            <Button Name="SideBarAddUserItem" Click="SideBarAddUserItem_OnClick" Content="Add User" Background="Transparent" Foreground="White" BorderThickness="0" Margin="0,10" Height="40" />
+            <Button Name="SideBarViewUserItem" Click="SideBarViewUserItem_OnClick" Content="View Users" Background="Transparent" Foreground="White" BorderThickness="0" Margin="0,10" Height="40" />
             <Button Content="Dashboard" Background="Transparent" Foreground="White" BorderThickness="0" Margin="0,10" Height="40" />
         </StackPanel>
         
@@ -27,15 +27,21 @@
                 <ColumnDefinition Width="200" />
 
             </Grid.ColumnDefinitions>
-            <Grid Height="150" Background="Bisque">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="20"></RowDefinition>
+                <RowDefinition></RowDefinition>
+            </Grid.RowDefinitions>
+            <TextBlock FontSize="20" FontWeight="Bold">Dashboard</TextBlock>
+            <Grid Grid.Row="1" Height="150" Background="Bisque">
                 
-            <TextBlock Text="Total Number of Admins" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="14" />
+            <TextBlock  Text="Total Number of Admins" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="14" />
             <TextBlock Text="2" Margin="0,60,0,0" VerticalAlignment="Center" HorizontalAlignment="Center" FontWeight="Black" FontSize="20" />
             </Grid>
-            <Grid Grid.Column="2" Background="Aqua" Height="150">
+            <Grid Grid.Row="1" Grid.Column="2" Background="Aqua" Height="150">
             <TextBlock  Text="Total Number of Pharmacist" VerticalAlignment="Center"  HorizontalAlignment="Center" FontSize="14" />
             <TextBlock  Text="10" Margin="0,60,0,0" VerticalAlignment="Center" HorizontalAlignment="Center" FontWeight="Black" FontSize="20" />
             </Grid>
         </Grid>
+        <TextBlock TextAlignment="Center" VerticalAlignment="Bottom" Foreground="White" Padding="10">Alan Ari</TextBlock>
     </Grid>
 </Window>
