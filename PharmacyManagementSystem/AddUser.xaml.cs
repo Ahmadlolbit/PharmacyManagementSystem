@@ -6,6 +6,6 @@ public partial class AddUser : Window
 {
     public AddUser()
     {
-        InitializeComponent();
+        // InitializeComponent();
     }
 }
