@@ -23,7 +23,6 @@ namespace PharmacyManagementSystem
         private void MainWindow_OnLoaded(object sender, RoutedEventArgs e)
         {
             UsernameTextbox.Focus();
-
         }
         
         private void UsernameTextbox_OnTextChanged(object sender, TextChangedEventArgs e)
@@ -78,6 +77,7 @@ namespace PharmacyManagementSystem
              {
                  String connectionString = $"User Id={username};Password={password};Data Source=localhost:1521/orcl";
                  OracleConnection conn = new OracleConnection(connectionString);
+                 
                  
              }
              catch (Exception ex)
