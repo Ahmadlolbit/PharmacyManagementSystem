@@ -4,13 +4,13 @@
         Title="Add User" Height="350" Width="400">
     <Grid Margin="10">
         <Grid.RowDefinitions>
-            <RowDefinition Height="Auto"/> <!-- Name -->
-            <RowDefinition Height="Auto"/> <!-- Username -->
-            <RowDefinition Height="Auto"/> <!-- Password -->
-            <RowDefinition Height="Auto"/> <!-- Email -->
-            <RowDefinition Height="Auto"/> <!-- Role -->
-            <RowDefinition Height="*"/>    <!-- Spacer -->
-            <RowDefinition Height="Auto"/> <!-- Add Button -->
+            <RowDefinition Height="Auto"/> 
+            <RowDefinition Height="Auto"/> 
+            <RowDefinition Height="Auto"/> 
+            <RowDefinition Height="Auto"/> 
+            <RowDefinition Height="Auto"/> 
+            <RowDefinition Height="*"/>    
+            <RowDefinition Height="Auto"/> 
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="100"/>
