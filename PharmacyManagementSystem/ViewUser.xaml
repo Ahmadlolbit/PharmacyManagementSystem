@@ -14,7 +14,7 @@
 
         
         <StackPanel Orientation="Vertical">
-            <!-- Search Section -->
+            
             <StackPanel Orientation="Horizontal" Margin="0,0,0,20" HorizontalAlignment="Stretch">
                 <Label Grid.Row="0" Grid.Column="0" Content="Search" VerticalAlignment="Center" HorizontalAlignment="Right" Margin="5" Foreground="#0066FF" FontSize="15px"/>
                 <TextBox x:Name="SearchBox" Width="400" Height="35" FontSize="14" Margin="0,0,10,0" />
