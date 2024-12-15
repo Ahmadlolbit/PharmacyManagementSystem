@@ -12,7 +12,7 @@
             <TextBlock Text="View Users" FontSize="26" FontWeight="Bold" Foreground="White" HorizontalAlignment="Center"/>
         </Border>
 
-        <!-- Main Content -->
+        
         <StackPanel Orientation="Vertical">
             <!-- Search Section -->
             <StackPanel Orientation="Horizontal" Margin="0,0,0,20" HorizontalAlignment="Stretch">
