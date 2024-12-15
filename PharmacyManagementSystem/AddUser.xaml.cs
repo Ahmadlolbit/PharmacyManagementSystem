@@ -2,10 +2,10 @@
 
 namespace PharmacyManagementSystem;
 
-public partial class AddUser : Window
+public partial class AddUser
 {
     public AddUser()
     {
-        // InitializeComponent();
+        InitializeComponent();
     }
 }

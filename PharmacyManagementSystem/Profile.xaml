@@ -1,0 +1,62 @@
+<UserControl x:Class="PharmacyManagementSystem.Profile"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:PharmacyManagementSystem"
+             Height="450" Width="800">
+    <UserControl.Resources>
+        <!-- Define the style for the textboxes and labels -->
+        <Style x:Key="TextBoxStyle" TargetType="TextBox">
+            <Setter Property="Background" Value="White"/>
+            <Setter Property="FontSize" Value="12"/>
+            <Setter Property="Padding" Value="8"/>
+            <Setter Property="Margin" Value="5"/>
+            <Setter Property="Height" Value="25"/>  <!-- Smaller height -->
+        </Style>
+
+        <Style x:Key="PasswordBoxStyle" TargetType="PasswordBox">
+            <Setter Property="Background" Value="White"/>
+            <Setter Property="FontSize" Value="12"/>
+            <Setter Property="Padding" Value="8"/>
+            <Setter Property="Margin" Value="5"/>
+            <Setter Property="Height" Value="25"/>  <!-- Smaller height -->
+        </Style>
+
+        <Style x:Key="LabelStyle" TargetType="Label">
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="Foreground" Value="#0066ff"/>
+            <Setter Property="Margin" Value="0,10,0,5"/>
+        </Style>
+    </UserControl.Resources>
+    
+    <Grid>
+        <!-- Define the Grid with two columns: one for image, one for text content -->
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        
+        <!-- Image on the Left -->
+        <Image Source="Screenshot 2024-12-10 200012.png" 
+               Width="120" Height="120" Margin="20" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+        
+        <!-- Right side content in a StackPanel -->
+        <StackPanel Grid.Column="1" VerticalAlignment="Top" Margin="20,0,20,0">
+            <!-- User Name -->
+            <Label Content="Name:" Style="{StaticResource LabelStyle}"/>
+            <TextBox Name="UserNameTextBox" Style="{StaticResource TextBoxStyle}" IsReadOnly="True"/>
+            
+            <!-- User Email -->
+            <Label Content="Email:" Style="{StaticResource LabelStyle}"/>
+            <TextBox Name="UserEmailTextBox" Style="{StaticResource TextBoxStyle}" IsReadOnly="True"/>
+            
+            <!-- User Password -->
+            <Label Content="Password:" Style="{StaticResource LabelStyle}"/>
+            <PasswordBox Name="UserPasswordBox" Style="{StaticResource PasswordBoxStyle}" />
+
+            <!-- User Role -->
+            <Label Content="Role:" Style="{StaticResource LabelStyle}"/>
+            <TextBox Name="UserRoleTextBox" Style="{StaticResource TextBoxStyle}" IsReadOnly="True"/>
+        </StackPanel>
+    </Grid>
+</UserControl>

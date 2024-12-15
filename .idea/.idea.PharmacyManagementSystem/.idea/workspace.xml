@@ -7,33 +7,74 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="21530a13-3e2e-4ee5-aa56-ab1eae22cfc7" name="Changes" comment="add admin name and window heading" />
+    <list default="true" id="21530a13-3e2e-4ee5-aa56-ab1eae22cfc7" name="Changes" comment="add admin name and window heading">
+      <change afterPath="$PROJECT_DIR$/PharmacyManagementSystem/Dashboard.xaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PharmacyManagementSystem/Dashboard.xaml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PharmacyManagementSystem/Profile.xaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PharmacyManagementSystem/Profile.xaml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PharmacyManagementSystem/Screenshot 2024-12-10 200012.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PharmacyManagementSystem/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PharmacyManagementSystem/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PharmacyManagementSystem/AddUser.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/PharmacyManagementSystem/AddUser.xaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PharmacyManagementSystem/AddUser.xaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PharmacyManagementSystem/AddUser.xaml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PharmacyManagementSystem/App.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/PharmacyManagementSystem/App.xaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PharmacyManagementSystem/SideBar.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/PharmacyManagementSystem/SideBar.xaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PharmacyManagementSystem/SideBar.xaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PharmacyManagementSystem/SideBar.xaml.cs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DpaMonitoringSettings">
-    <option name="firstShow" value="false" />
+    <option name="autoShow" value="false" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="dev" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "alan-ar1"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;alan-ar1&quot;
   }
-}]]></component>
+}</component>
+  <component name="GitToolBoxStore">
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="feature/profile" />
+                    <option name="lastUsedInstant" value="1734284847" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="dev" />
+                    <option name="lastUsedInstant" value="1734282485" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="master" />
+                    <option name="lastUsedInstant" value="1734282484" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
+    </option>
+  </component>
   <component name="GithubPullRequestsUISettings"><![CDATA[{
   "selectedUrlAndAccountId": {
-    "url": "https://github.com/Ahmadlolbit/PharmacyManagementSystem",
-    "accountId": "f140ffe6-11f1-4b4d-8ad2-46e4a7d15a61"
+    "url": "https://github.com/Ahmadlolbit/PharmacyManagementSystem.git",
+    "accountId": "a36946c6-d856-4989-ba3f-331ea2c240bd"
   }
 }]]></component>
   <component name="HighlightingSettingsPerFile">
@@ -48,6 +89,7 @@
   &quot;associatedIndex&quot;: 3
 }</component>
   <component name="ProjectId" id="2qDjUyEKIqslf8OVY5GIcwUP62q" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -57,7 +99,7 @@
     ".NET Project.PharmacyManagementSystem.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "feature/AdminstratorWindow/sidebar",
+    "git-widget-placeholder": "feature/profile",
     "ignore.virus.scanning.warn.message": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -66,6 +108,13 @@
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "rider.external.source.directories": [
+      "C:\\Users\\asus\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\DecompilerCache",
+      "C:\\Users\\asus\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\SourcesCache",
+      "C:\\Users\\asus\\AppData\\Local\\Symbols\\src"
+    ]
   }
 }]]></component>
   <component name="RunManager">
