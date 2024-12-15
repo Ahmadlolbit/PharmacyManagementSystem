@@ -35,7 +35,5 @@
                 </DataGrid>
             </Border>
         </StackPanel>
-
-        
     </Grid>
 </Window>
