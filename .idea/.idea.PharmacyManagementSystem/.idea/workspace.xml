@@ -7,7 +7,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="21530a13-3e2e-4ee5-aa56-ab1eae22cfc7" name="Changes" comment="add arbitary files" />
+    <list default="true" id="21530a13-3e2e-4ee5-aa56-ab1eae22cfc7" name="Changes" comment="add admin name and window heading" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +17,11 @@
     <option name="firstShow" value="false" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory"><![CDATA[{
@@ -31,6 +36,10 @@
     "accountId": "f140ffe6-11f1-4b4d-8ad2-46e4a7d15a61"
   }
 }]]></component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="mock://C:/Users/Asia/source/repos/PharmacyManagementSystem/PharmacyManagementSystem/SideBar.xaml" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Asia/source/repos/PharmacyManagementSystem/PharmacyManagementSystem/SideBar.xaml.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="SWEA" />
@@ -43,22 +52,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;.NET Project.PharmacyManagementSystem.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    ".NET Project.PharmacyManagementSystem.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "feature/AdminstratorWindow/sidebar",
+    "ignore.virus.scanning.warn.message": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="PharmacyManagementSystem" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
@@ -93,7 +102,7 @@
       <workItem from="1734259976530" duration="2526000" />
       <workItem from="1734262877842" duration="103000" />
       <workItem from="1734262981832" duration="60000" />
-      <workItem from="1734263538022" duration="315000" />
+      <workItem from="1734263538022" duration="6091000" />
     </task>
     <task id="LOCAL-00001" summary="Add login ui">
       <option name="closed" value="true" />
@@ -111,7 +120,39 @@
       <option name="project" value="LOCAL" />
       <updated>1734263800254</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="remove .idea">
+      <option name="closed" value="true" />
+      <created>1734263934701</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1734263934701</updated>
+    </task>
+    <task id="LOCAL-00004" summary="remove .idea">
+      <option name="closed" value="true" />
+      <created>1734264001029</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1734264001029</updated>
+    </task>
+    <task id="LOCAL-00005" summary="add navbar and dashboard">
+      <option name="closed" value="true" />
+      <created>1734268198933</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1734268198933</updated>
+    </task>
+    <task id="LOCAL-00006" summary="add admin name and window heading">
+      <option name="closed" value="true" />
+      <created>1734269608200</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1734269608200</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -119,11 +160,25 @@
   </component>
   <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Add login ui" />
     <MESSAGE value="add arbitary files" />
-    <option name="LAST_COMMIT_MESSAGE" value="add arbitary files" />
+    <MESSAGE value="remove .idea" />
+    <MESSAGE value="add navbar and dashboard" />
+    <MESSAGE value="add admin name and window heading" />
+    <option name="LAST_COMMIT_MESSAGE" value="add admin name and window heading" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
