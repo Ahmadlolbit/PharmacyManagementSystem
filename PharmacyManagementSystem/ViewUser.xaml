@@ -9,7 +9,7 @@
     <Grid Margin="20">
         <!-- Header Section -->
         <Border CornerRadius="8" Padding="10" Margin="0,0,0,20">
-            <TextBlock Text="View Users" FontSize="26" FontWeight="Bold" Foreground="White" HorizontalAlignment="Center"/>
+            <TextBlock Text="View Users" FontSize="26" FontWeight="Bold" Foreground="White"  HorizontalAlignment="Center"/>
         </Border>
 
         
