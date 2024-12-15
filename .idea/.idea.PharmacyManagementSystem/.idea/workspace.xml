@@ -7,11 +7,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="21530a13-3e2e-4ee5-aa56-ab1eae22cfc7" name="Changes" comment="add navbar and dashboard">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.PharmacyManagementSystem/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PharmacyManagementSystem/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PharmacyManagementSystem/SideBar.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/PharmacyManagementSystem/SideBar.xaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PharmacyManagementSystem/SideBar.xaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PharmacyManagementSystem/SideBar.xaml.cs" afterDir="false" />
-    </list>
+    <list default="true" id="21530a13-3e2e-4ee5-aa56-ab1eae22cfc7" name="Changes" comment="add admin name and window heading" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,6 +36,10 @@
     "accountId": "f140ffe6-11f1-4b4d-8ad2-46e4a7d15a61"
   }
 }]]></component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="mock://C:/Users/Asia/source/repos/PharmacyManagementSystem/PharmacyManagementSystem/SideBar.xaml" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Asia/source/repos/PharmacyManagementSystem/PharmacyManagementSystem/SideBar.xaml.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="SWEA" />
@@ -102,7 +102,7 @@
       <workItem from="1734259976530" duration="2526000" />
       <workItem from="1734262877842" duration="103000" />
       <workItem from="1734262981832" duration="60000" />
-      <workItem from="1734263538022" duration="5314000" />
+      <workItem from="1734263538022" duration="6091000" />
     </task>
     <task id="LOCAL-00001" summary="Add login ui">
       <option name="closed" value="true" />
@@ -144,7 +144,15 @@
       <option name="project" value="LOCAL" />
       <updated>1734268198933</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="add admin name and window heading">
+      <option name="closed" value="true" />
+      <created>1734269608200</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1734269608200</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -169,7 +177,8 @@
     <MESSAGE value="add arbitary files" />
     <MESSAGE value="remove .idea" />
     <MESSAGE value="add navbar and dashboard" />
-    <option name="LAST_COMMIT_MESSAGE" value="add navbar and dashboard" />
+    <MESSAGE value="add admin name and window heading" />
+    <option name="LAST_COMMIT_MESSAGE" value="add admin name and window heading" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -17,7 +17,9 @@
             <Button Name="SideBarDashboardItem" Click="SideBarDashboardItem_OnClick" Content="Dashboard" Background="White" Foreground="Black"  BorderThickness="0" Margin="0, 10" Height="40" />
             <Button Name="SideBarAddUserItem" Click="SideBarAddUserItem_OnClick" Content="Add User" Background="Transparent" Foreground="White" BorderThickness="0" Margin="0,10" Height="40" />
             <Button Name="SideBarViewUserItem" Click="SideBarViewUserItem_OnClick" Content="View Users" Background="Transparent" Foreground="White" BorderThickness="0" Margin="0,10" Height="40" />
-            <Button Content="Dashboard" Background="Transparent" Foreground="White" BorderThickness="0" Margin="0,10" Height="40" />
+            <Button Content="Profile" Background="Transparent" Foreground="White" BorderThickness="0" Margin="0,10" Height="40" />
+            <Button Content="Logout" Background="Transparent" Foreground="White" BorderThickness="0" Margin="0,10" Height="40" />
+
         </StackPanel>
         
         <Grid Background="White" Height="400" Width="450"  Grid.Column="1"  >
