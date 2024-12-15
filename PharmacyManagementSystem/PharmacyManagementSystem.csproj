@@ -8,4 +8,14 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="Fonts\PlaywriteNLGuides-Regular.ttf" />
+    <Resource Include="Fonts\PlaywriteNLGuides-Regular.ttf" />
+    <Resource Include="Fonts\Poppins-Regular.ttf" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Oracle.ManagedDataAccess" Version="23.6.1" />
+  </ItemGroup>
+
 </Project>
